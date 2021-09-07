@@ -16,6 +16,10 @@ Date:
 
 .header{ /*DO NOT REMOVE*/
     grid-area: header;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
 }
 
 .main{ /*DO NOT REMOVE*/
@@ -44,4 +48,8 @@ Date:
 
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
+}
+
+img {
+    width: 100%;
 }
