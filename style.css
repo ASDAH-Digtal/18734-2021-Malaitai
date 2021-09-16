@@ -3,6 +3,8 @@ Name:
 Date: 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 .container{ /*DO NOT REMOVE OR EDIT*/
     display: grid;
     grid-template-columns:1fr 2fr 1fr;
@@ -39,6 +41,7 @@ Date:
     grid-area: section1;
     background-color: #E7C6FF;
     padding: 60px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 .section2{ /*DO NOT REMOVE*/
@@ -60,6 +63,8 @@ Date:
 .footer{ /*DO NOT REMOVE*/
     grid-area: footer;
     background-color: #C8B6FF;
+    text-align: center;
+    padding: 20px;
 }
 
 img {
